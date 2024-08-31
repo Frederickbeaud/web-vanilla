@@ -65,3 +65,59 @@ header .btn:hover{
     border-radius: 0;
     scale: 1.2;
 }
+.home{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+    width: 100%;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+}
+.home .content{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding: 1rem ;
+    padding-left: 10rem;
+    width: 50%;
+}
+.home .content h1{
+    font-size: 4rem;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.home .content span{
+    color: var(--main-color);
+}
+.home .content p{
+    color: var(--light-color);
+    line-height: 2;
+    text-transform: lowercase;
+    font-size: 1.3rem;
+    margin: 2rem 0;
+}
+.home .content .btn{
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    box-shadow: .1rem .5rem 1rem #999;
+}
+.home .content .btn:hover{
+    border-radius: 0;
+    
+    padding-right: 5rem;
+}
