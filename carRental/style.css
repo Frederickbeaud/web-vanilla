@@ -314,12 +314,72 @@ header .btn:hover{
     scale: 1.2;
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: var(--black);
+    padding: 3rem;
+}
 
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3rem ;
+}
+.footer .box-container .box{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer .box-container .box i{
+    color: #EEEEEE;
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
 
+}
+.footer .box-container .box i:hover{
+    color: var(--main-color);
+}
 
+.footer .box-container .box .logo h1{
+    font-size: 3rem;
+    color: black;
+    text-transform: capitalize;
+}
+.footer .box-container .box .logo span{
+    color: var(--main-color);
+}
 
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
 
-
+.footer .box-container .box a{
+    font-size: 1.2rem;
+    color: #999;
+    text-transform: capitalize;
+}
+.footer .box-container .box a:hover{
+    color: var(--main-color);
+    padding-left: 2rem;
+    text-decoration: underline;
+}
+.footer .credit span{
+    color: var(--white);
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
 @media(max-width:990px){
     html{
         font-size: 55%;
